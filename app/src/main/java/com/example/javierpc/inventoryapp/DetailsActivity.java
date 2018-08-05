@@ -246,8 +246,11 @@ public class DetailsActivity extends AppCompatActivity implements LoaderManager.
         if (ContextCompat.checkSelfPermission(DetailsActivity.this, Manifest.permission.CALL_PHONE) != PackageManager.PERMISSION_GRANTED) {
             ActivityCompat.requestPermissions(DetailsActivity.this, new String[]{Manifest.permission.CALL_PHONE}, REQUEST_PHONE_CALL);
         } else {
+            if (intent.resolveActivity(getPackageManager()) != null) {
 
-            startActivity(intent);
+                startActivity(intent);  //where intent is your intent
+
+            }
         }
     }
 }

@@ -171,6 +171,7 @@ public class EditorActivity extends AppCompatActivity implements LoaderManager.L
         if (currentProductUri == null && TextUtils.isEmpty(nameString)
                 || TextUtils.isEmpty(priceString)
                 || quantityString.equals("")
+                || TextUtils.isEmpty(phoneNumberString)
                 || mSupplier.equals(ProductEntry.SUPPLIER_UNKNOWN)) {
             Toast.makeText(this, getString(R.string.error_while_empty_editor), Toast.LENGTH_LONG).show();
             return;
@@ -198,6 +199,7 @@ public class EditorActivity extends AppCompatActivity implements LoaderManager.L
                 Toast.makeText(this, getString(R.string.error_while_saving), Toast.LENGTH_SHORT).show();
             } else {
                 Toast.makeText(this, getString(R.string.success_while_saving) + currentProductUri, Toast.LENGTH_SHORT).show();
+                finish();
             }
         }
     }
@@ -259,7 +261,6 @@ public class EditorActivity extends AppCompatActivity implements LoaderManager.L
             // Respond to a click on the "Save" menu option
             case R.id.action_save:
                 saveProduct();
-                finish();
                 return true;
             // Respond to a click on the "Delete" menu option
             case R.id.action_delete:
