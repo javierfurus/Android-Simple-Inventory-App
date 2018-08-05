@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Copyright (C) 2016 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <!-- Name for the application [CHAR LIMIT=12] -->
+    <string name="app_name">Inventory App</string>
+
+    <!-- Label for overflow menu option that inserts fake product data into the app [CHAR LIMIT=20] -->
+    <string name="action_insert_dummy_data">Insert Dummy Data</string>
+
+    <!-- Label for overflow menu option that deletes all product data in the app [CHAR LIMIT=20] -->
+    <string name="action_delete_all_entries">Delete All products</string>
+
+    <!-- Title for the activity to add a new product [CHAR LIMIT=20] -->
+    <string name="editor_activity_title_new_product">Add a Product</string>
+
+    <string name="editor_activity_title_edit_product">Edit Product</string>
+
+    <!-- Label for editor menu option to save product and leave editor [CHAR LIMIT=20] -->
+    <string name="action_save">Save</string>
+
+    <!-- Label for editor overflow menu option that deletes the current product [CHAR LIMIT=20] -->
+    <string name="action_delete">Delete</string>
+
+    <!-- Label for overview category of attributes in the editor [CHAR LIMIT=30] -->
+    <string name="category_overview">Overview</string>
+
+    <!-- Label for supplier information in the editor [CHAR LIMIT=30] -->
+    <string name="category_supplier">Supplier</string>
+
+    <!-- Label for measurement information in the editor [CHAR LIMIT=30] -->
+    <string name="category_quantity">Quantity</string>
+
+    <!-- Text hint for name field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_product_name">Name</string>
+
+    <!-- Text hint for price field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_product_price">Price</string>
+
+    <!-- Text hint for name field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_product_quantity">Quantity</string>
+
+    <!-- Label for dropdown menu option if the product's supplier is unknown [CHAR LIMIT=20] -->
+    <string name="product_unknown">Unknown</string>
+
+    <!-- Label for dropdown menu option if the product is male [CHAR LIMIT=20] -->
+    <string name="supplier_apple">Apple</string>
+
+    <!-- Label for dropdown menu option if the product is female [CHAR LIMIT=20] -->
+    <string name="supplier_sony">Sony</string>
+    <string name="supplier_phone_number">Supplier Phone Number</string>
+
+    <string name="supplier_phone_number_hint">Phone Number</string>
+
+    <string name="error_while_saving">Error while saving product</string>
+    <string name="success_while_saving">Product saved successfully in the following row:</string>
+    <string name="error_while_empty_editor">Product was not saved because of empty fields. Please make sure
+    that you have filled out every field and that you have chosen a supplier other than "Unknown"!</string>
+    <string name="unsaved_changes_dialog_msg">Are you sure you want to leave the screen without
+    saving? Your changes will be lost!</string>
+    <string name="discard">Discard</string>
+    <string name="keep_editing">Keep editing</string>
+    <string name="editor_delete_product_successful">Product deleted</string>
+    <string name="editor_delete_product_failed">Error with deleting product</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete_dialog_msg">Delete this product?</string>
+    <string name="empty_title">There are no products in the list to display.</string>
+    <string name="empty_subtitle">Add a new product into the database!</string>
+    <string name="product_sold_out">Product has already sold out!</string>
+    <string name="product_successfull_selling">1 product successfully sold!</string>
+    <string name="category_name">Name</string>
+    <string name="category_price">Price</string>
+    <string name="activity_title_details">Product Details</string>
+</resources>
