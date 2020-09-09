@@ -6,11 +6,6 @@ Inventory App
 This app displays a list of products within a database. It lets the user add, edit or remove
 products from it. It also allows the user to get in touch with the supplier of a product!
 
-Screenshots
--------
-![](https://lh3.googleusercontent.com/Gjg0cxUo-uQK3Wpi8y-zj6EuUvDRBoi3REuS1qhPdvQNhkDP83SyXKHZBnmZwV6SmjMTp_zIQIWP1g "CatalogActivity")
- ![](https://lh3.googleusercontent.com/Ne7Z6f5hgxT2H6uZvb_tQ_xtdWLUoGnO9a9-5XyZsl7bBnLyhejzLviRN4iBDVab4hVDLp_z8BiGfw "DetailsActivity")![enter image description here](https://lh3.googleusercontent.com/bkyfqtNR5NgkrmJ9w5zoOiYOzOdzlMSj-BS5OsLq1Qu2pPyJbYPZaaKR8QdRgsb5GzP40lwXCzgabA "EditorActivity")![](https://lh3.googleusercontent.com/BXxLsQzKkvSj081D9BsY4NpamoB0up9QI3Q2dRNBnu6IrycgnlFGqogvkjDUWxMBNOlLBvvhj2LXrw "Delete in Details Activity")
-
 License
 -------
 
